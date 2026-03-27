@@ -47,7 +47,7 @@ consultarAlunoNaEscolaMosaico('Lucia Martins')
 consultarAlunoNaEscolaOlimpus('Carla Machado')
 consultarAlunoNaEscolaRosanaBastos('Paula Vaz')
 
-
+//destructing
 function professorDoALunoMosaico (aluno) {
       if (escolaMosaicoCompleta[1].includes(aluno)){
             const [,alunos, professor] = escolaMosaicoCompleta
