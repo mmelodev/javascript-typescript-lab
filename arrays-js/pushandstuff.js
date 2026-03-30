@@ -89,3 +89,20 @@ console.log(mixAlunos)
 const todos = [alunos, alunoInfo]
 
 console.log(`As informações do ${todos[0][0]} são: ${alunoInfo[1][1]}`) //nesse caso deu undefined 
+
+const novosArrays = [1, 3, 5, 6]
+
+novosArrays[3] = 11
+
+console.log(novosArrays)
+
+console.log(novosArrays.length)
+
+console.log(novosArrays[novosArrays.length-1]) // ultimo elemento do array 
+
+const minhaEscola = [
+      {}, {}
+]
+
+let horaAgora = new Date()
+console.log(`Hoje é dia ${horaAgora.getDate()} e hora é ${horaAgora.getHours()}:${horaAgora.getMinutes()}`)
