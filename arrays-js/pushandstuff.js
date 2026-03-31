@@ -106,3 +106,15 @@ const minhaEscola = [
 
 let horaAgora = new Date()
 console.log(`Hoje é dia ${horaAgora.getDate()} e hora é ${horaAgora.getHours()}:${horaAgora.getMinutes()}`)
+
+const numeros = [1, 4, 5, 6, 8, 3, 10]
+
+let somaDasNotas = 0
+
+numeros.forEach((n) => {
+      somaDasNotas += n
+})
+
+let media = somaDasNotas / numeros.length
+
+console.log(media.toFixed(2))
