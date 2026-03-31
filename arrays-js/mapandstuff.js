@@ -31,3 +31,15 @@ let consultaDeProfessor = alunos.filter((_, i) => {
 
 console.log(consultaDeProfessor)
 //também poderia fazer para notas e adicionar mais arrays.
+
+const numeros = [43, 50, 65, 12]
+const numeros2 = [9, 10, 5, 6]
+
+function media (listaDeNumeros) {
+      const soma = listaDeNumeros.reduce((acum, numero) => acum + numero, 0) //acum -> acumulador
+      
+      const media = soma / listaDeNumeros.length
+      return media;
+}
+
+console.log(listaDeNumeros(numeros))
