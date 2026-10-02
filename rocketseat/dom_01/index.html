@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            body {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 100vh;
+                  margin: 0;
+                  font-family: sans-serif;
+                  background-color: #f2f2f2;
+            }
+
+            .total {
+                  align-items: center;
+                  justify-content: center;
+                  display: flex;
+                  flex-direction: column;
+            }
+
+            form {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  padding: 24px 32px;
+                  background-color: #fff;
+                  border-radius: 25px;
+                  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                  text-align: center;
+            }
+
+            form input {
+                  padding: 8px;
+                  border: 1px solid #ccc;
+                  border-radius: 25px;
+                  font-size: 1rem;
+            }
+            
+            #btn-add{
+                  background-color: royalblue;
+                  color: #ffffff;
+                  border-radius: 25px;
+                  padding: 10px;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="total" id="total">
+            <h1 id="titulo-formulario">Formulário teste</h1>
+            <form action="">
+                  <p id="texto-id">Escreva o nome da pessoa abaixo</p>
+                  <input type="text" id="texto-form-id" placeholder="Escreva aqui...">
+
+                  <button id="btn-add">Adicionar Pessoa</button>
+            </form>
+      </div>
+</body>
+
+<script src="dom.js"></script>
+
+</html>
